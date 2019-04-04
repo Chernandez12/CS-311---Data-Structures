@@ -1,0 +1,122 @@
+Script started on Sat 06 Oct 2018 08:11:34 PM PDT
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ ./a.out
+
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>1
+CASE 1: Basic --------------- 
+Step 1
+It is empty
+Step 2
+[ empty ]
+Step 3
+Step 4
+[1] [2] [3] [4] 
+Step 5
+Deleted: 1 2
+Step 6
+[3] [4] 
+Step 7
+List is not Empty
+Step 8
+Deleted: 4 3
+Step 9
+It is empty
+Calling the llist deconstructor
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>2
+Case 2: Insert and Delete ------------
+Step 1
+Step 2
+[5] [6] [8] [9] 
+Step 3
+Step 4
+Step 5
+Step 6
+ERROR: Out of range
+Step7
+ERROR: Out of range
+Step 8
+[4] [5] [6] [8] [7] [9] [10] 
+Step 9
+removed 4
+Step 10
+Deleted: 10
+Step 11
+Deleted: 7
+Step 12
+ERROR: Out of range
+Step 13
+ERROR: Out of range
+Step 14
+[5] [6] [8] [9] 
+Step 15
+Deleted: 9
+Deleted: 8
+Deleted: 6
+Deleted: 5
+Step 16
+[ empty ]
+Step 17
+ERROR: Out of range
+Step 18
+ERROR: Underflow
+Step 19
+ERROR: Out of range
+Step 20
+ERROR: Underflow
+Calling the llist deconstructor
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>3
+Case 3: Copy Constructor and = -------
+Step1
+Step2
+in copy test
+[1] [2] [3] [4] [5] [6] 
+finished
+Calling the llist deconstructorCalling the llist deconstructor-- After copytest --- 
+3
+[1] [2] [3] [4] [5] 
+-- Testing operator overloading ---
+Step 4
+Step 5
+[1] [2] [3] [4] [5] 
+Step 6
+Step 7
+[7] [8] [9] [10] 
+Step 8
+Step 9
+[1] [2] [3] [4] [5] 
+Step 10
+Step 11
+[1] [2] [3] [4] 
+Step 12
+[1] [2] [3] [4] 
+Step 13
+[1] [2] [3] [4] [5] 
+Calling the llist deconstructorCalling the llist deconstructor
+MENU: These are your options: 
+
+   (1) Case 1  
+   (2) Case 2  
+   (3) Case 3  
+    Enter ( 0 ) to quit 
+===>0
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Sat 06 Oct 2018 08:12:07 PM PDT
