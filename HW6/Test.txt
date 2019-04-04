@@ -1,0 +1,225 @@
+Script started on Wed 07 Nov 2018 01:38:34 PM PST
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ g++ h6client.cpp dgraph.cpp llist.cpp slist.cpp 
+g++: error: h6client.cpp: No such file or directory
+]0;herna728@empress:~[herna728@empress ~]$ g++ hw6client.cpp dgraph.cpp llist.cpp slist.cpp
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist Constructor
+Calling the slist Constructor
+Filling table.... 
+Displaying Graph... 
+Vertex Name: A	Out Degree: 2
+[B] [F] 
+Vertex Name: B	Out Degree: 2
+[C] [G] 
+Vertex Name: C	Out Degree: 1
+[H] 
+Vertex Name: D	Out Degree: 0
+[ empty ]
+Vertex Name: E	Out Degree: 0
+[ empty ]
+Vertex Name: F	Out Degree: 2
+[I] [E] 
+Vertex Name: G	Out Degree: 0
+[ empty ]
+Vertex Name: H	Out Degree: 2
+[G] [I] 
+Vertex Name: I	Out Degree: 3
+[A] [G] [E] 
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+A
+Degree: 2
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[B] [F] 
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+B
+Degree: 2
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[C] [G] 
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+C
+Degree: 1
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[H] 
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+D
+Degree: 0
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[ empty ]
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+E
+Degree: 0
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[ empty ]
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+F
+Degree: 2
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[I] [E] 
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+G
+Degree: 0
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[ empty ]
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+H
+Degree: 2
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[G] [I] 
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+I
+Degree: 3
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Calling the llist deconstructor
+[A] [G] [E] 
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+J
+Error: Vertex not found
+Degree: 0
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Error: Vertex not found
+Calling the llist deconstructor
+[ empty ]
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+Z
+Error: Vertex not found
+Degree: 0
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Error: Vertex not found
+Calling the llist deconstructor
+[ empty ]
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+a
+Error: Vertex not found
+Degree: 0
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Error: Vertex not found
+Calling the llist deconstructor
+[ empty ]
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+6
+Error: Vertex not found
+Degree: 0
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Error: Vertex not found
+Calling the llist deconstructor
+[ empty ]
+Calling the llist deconstructor
+Specify Vertex to find Degree and Adjacency: (Enter '1' to quit)
+1
+Error: Vertex not found
+Degree: 0
+Adjecency: 
+Calling the llist Constructor
+Calling the slist Constructor
+Error: Vertex not found
+Calling the llist deconstructor
+[ empty ]
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+Calling the llist deconstructor
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Wed 07 Nov 2018 01:40:56 PM PST
