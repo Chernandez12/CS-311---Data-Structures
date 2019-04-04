@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/andrehernandez/Desktop/Data Structures/Projects/HW1P2/client2.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../HW1P2">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

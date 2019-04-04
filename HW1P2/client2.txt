@@ -1,0 +1,31 @@
+Script started on Thu 13 Sep 2018 08:40:33 PM PDT
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ ./a.out
+A
+B
+C
+AA
+AB
+AC
+BA
+BB
+BC
+CA
+CB
+CC
+AAA
+AAB
+AAC
+ABA
+ABB
+ABC
+ACA
+ACB
+ACC
+BAA
+BAB
+BAC
+Error: You have caused the stack to overflow.
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Thu 13 Sep 2018 08:41:30 PM PDT
