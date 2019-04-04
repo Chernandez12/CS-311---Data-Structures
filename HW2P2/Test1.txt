@@ -1,0 +1,70 @@
+Script started on Sat 29 Sep 2018 07:44:05 AM PDT
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ ./a.out
+How many elements? (must be less than 10) 7
+Enter elements one per line..
+1
+2
+3
+4
+5
+6
+7
+Ok the pivot is 1
+Results...
+1|234567
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+8
+7
+6
+5
+4
+3
+2
+1
+Ok the pivot is 8
+Results...
+1765432|8
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+How many elements? (must be less than 10) 8
+Enter elements one per line..
+5
+1
+4
+
+6
+7
+8
+2
+3
+Ok the pivot is 5
+Results...
+3142|7865
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+How many elements? (must be less than 10) 6
+Enter elements one per line..
+4
+3
+1
+2
+7
+5
+Ok the pivot is 4
+Results...
+231|475
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+How many elements? (must be less than 10) 5
+Enter elements one per line..
+2
+6
+4
+1
+7
+Ok the pivot is 2
+Results...
+1|6427
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 07:46:58 AM PDT

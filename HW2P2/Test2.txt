@@ -1,0 +1,72 @@
+Script started on Sat 29 Sep 2018 07:42:05 AM PDT
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ ./a.out
+How many elements in each list?
+3
+List1
+element :1
+element :2
+element :3
+List2
+element :4
+element :5
+element :6
+comparison
+comparison
+comparison
+The result is: 123456
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+How many elements in each list?
+3
+List1
+element :1
+element :3
+element :5
+List2
+element :2
+element :4
+element :6
+comparison
+comparison
+comparison
+comparison
+comparison
+The result is: 123456
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+How many elements in each list?
+3
+List1
+element :4
+element :5
+element :6
+List2
+element :1
+element :2
+element :3
+comparison
+comparison
+comparison
+The result is: 123456
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+How many elements in each list?
+4
+List1
+element :1
+element :2
+element :5
+element :6
+List2
+element :3
+element :4
+element :7
+element :8
+comparison
+comparison
+comparison
+comparison
+comparison
+comparison
+The result is: 12345678
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Sat 29 Sep 2018 07:43:36 AM PDT
