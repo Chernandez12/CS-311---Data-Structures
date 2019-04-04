@@ -1,0 +1,40 @@
+Script started on Sat 08 Sep 2018 11:17:12 PM PDT
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ g++ client1.cpp stack.h stack.cpp
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+type a postfix expression: 34+
+The Result is: 7
+]0;herna728@empress:~[herna728@empress ~]$ 345+*
+bash: 345+*: command not found
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+type a postfix expression: 23345+*
+The Result is: 27
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+type a postfix expression: 722+-
+The Result is: 3
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+type a postfix expression: 34_4+56++
+The Result is: 18
+]0;herna728@empress:~[herna728@empress ~]$ ./.a.out
+bash: ./.a.out: No such file or directory
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+type a postfix expression: 12+34*45+-+
+The Result is: 6
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+type a postfix expression: 1234567891234
+ERROR: There were Too Many Characters Entered
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+type a postfix expression: +
+ERROR: Too Few Operands
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out 
+type a postfix expression: 3+
+ERROR: Too few Oprands
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out 
+type a postfix expression: 3#
+ERROR: Invalid Element
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+type a postfix expression: 342345+
+ERROR: ERROR: Incomplete Expression
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Sat 08 Sep 2018 11:21:12 PM PDT
