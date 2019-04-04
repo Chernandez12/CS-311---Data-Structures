@@ -1,0 +1,24 @@
+Script started on Sun 28 Oct 2018 07:26:33 PM PDT
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ g++ pqclient.cpp pqueue.cpp pqueue.h
+]0;herna728@empress:~[herna728@empress ~]$ .a/.out
+bash: .a/.out: No such file or directory
+]0;herna728@empress:~[herna728@empress ~]$ /a.out
+bash: /a.out: No such file or directory
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+Jobs: 20 12 
+Jobs: 30 20 12 1 
+Jobs: 30 20 12 7 6 5 1 
+printing: 30
+Jobs: 1 20 12 7 6 5 
+printing: 1
+Jobs: 5 20 12 7 6 
+printing: 5
+Jobs: 6 20 12 7 
+printing: 6
+Jobs: 7 20 12 
+Jobs: 20 7 12 2 
+Jobs: 20 12 7 3 2 
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Sun 28 Oct 2018 07:28:11 PM PDT
