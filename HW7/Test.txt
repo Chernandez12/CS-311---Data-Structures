@@ -1,0 +1,179 @@
+Script started on Sat 17 Nov 2018 08:59:39 PM PST
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ g++ stack.cpp llist.cpp slist.cpp dgraph.cpp HW7client.cpp [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ppp
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[[1Pp[1Pp[1Pp[1Pp[1Pp[1Pp[1Pp[1Pp[1Pp[1Phw7client.cpp [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+Filling table.... 
+Displaying Graph... 
+Vertex Name: A
+Out Degree: 2
+Visit: 0
+[B] [F] 
+
+Vertex Name: B
+Out Degree: 2
+Visit: 0
+[C] [G] 
+
+Vertex Name: C
+Out Degree: 1
+Visit: 0
+[H] 
+
+Vertex Name: D
+Out Degree: 0
+Visit: 0
+[ empty ]
+
+Vertex Name: E
+Out Degree: 0
+Visit: 0
+[ empty ]
+
+Vertex Name: F
+Out Degree: 2
+Visit: 0
+[I] [E] 
+
+Vertex Name: G
+Out Degree: 0
+Visit: 0
+[ empty ]
+
+Vertex Name: H
+Out Degree: 2
+Visit: 0
+[G] [I] 
+
+Vertex Name: I
+Out Degree: 3
+Visit: 0
+[A] [G] [E] 
+
+Removed A from stack.
+Visit: 1
+Pushing F
+Pushing B
+
+Removed B from stack.
+Visit: 2
+Pushing G
+Pushing C
+
+Removed C from stack.
+Visit: 3
+Pushing H
+
+Removed H from stack.
+Visit: 4
+Pushing I
+Pushing G
+
+Removed G from stack.
+Visit: 5
+DEADEND REACHED: BACKUP
+
+Removed I from stack.
+Visit: 6
+Pushing E
+Pushing G
+Pushing A
+
+Removed A from stack.
+A has been visited already
+Current Stack:
+
+G
+E
+G
+F
+--------------
+
+Removed G from stack.
+G has been visited already
+Current Stack:
+
+E
+G
+F
+--------------
+
+Removed E from stack.
+Visit: 7
+DEADEND REACHED: BACKUP
+
+Removed G from stack.
+G has been visited already
+Current Stack:
+
+F
+--------------
+
+Removed F from stack.
+Visit: 8
+Pushing E
+Pushing I
+
+Removed I from stack.
+I has been visited already
+Current Stack:
+
+E
+--------------
+
+Removed E from stack.
+E has been visited already
+Current Stack:
+
+[ empty ]
+--------------
+
+Vertex Name: A
+Out Degree: 2
+Visit: 1
+[B] [F] 
+
+Vertex Name: B
+Out Degree: 2
+Visit: 2
+[C] [G] 
+
+Vertex Name: C
+Out Degree: 1
+Visit: 3
+[H] 
+
+Vertex Name: D
+Out Degree: 0
+Visit: 0
+[ empty ]
+
+Vertex Name: E
+Out Degree: 0
+Visit: 7
+[ empty ]
+
+Vertex Name: F
+Out Degree: 2
+Visit: 8
+[I] [E] 
+
+Vertex Name: G
+Out Degree: 0
+Visit: 5
+[ empty ]
+
+Vertex Name: H
+Out Degree: 2
+Visit: 4
+[G] [I] 
+
+Vertex Name: I
+Out Degree: 3
+Visit: 6
+[A] [G] [E] 
+
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Sat 17 Nov 2018 09:01:05 PM PST
