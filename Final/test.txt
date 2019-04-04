@@ -1,0 +1,82 @@
+Script started on Mon 10 Dec 2018 01:30:31 PM PST
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ g++ elem.cpp finalClient.cpp htable.cpp llist.cpp slist.cp p
+[01m[KfinalClient.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[KfinalClient.cpp:46:30:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [-Wpointer-arith]
+             if (inputStr[4]!=NULL && inputStr[5] == NULL) {
+[01;32m[K                              ^[m[K
+[01m[KfinalClient.cpp:46:53:[m[K [01;35m[Kwarning: [m[KNULL used in arithmetic [-Wpointer-arith]
+             if (inputStr[4]!=NULL && inputStr[5] == NULL) {
+[01;32m[K                                                     ^[m[K
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+Thank you for joining the Rika-Mart Rewards club!
+Please Enter Your 5-Digit Rika-Mart ID, Enter -1 to quit: 12345
+Enter First Name: David
+Enter Last Name: Bowie
+Please Enter Your 5-Digit Rika-Mart ID, Enter -1 to quit: 79375
+Enter First Name: Iggy
+Enter Last Name: Pop
+Please Enter Your 5-Digit Rika-Mart ID, Enter -1 to quit: 95783
+Enter First Name: Prince
+Enter Last Name: Revolution
+Please Enter Your 5-Digit Rika-Mart ID, Enter -1 to quit: 28748
+Enter First Name: Paul
+Enter Last Name: McCartney
+Please Enter Your 5-Digit Rika-Mart ID, Enter -1 to quit: 69699
+Enter First Name: Mick
+Enter Last Name: Jagger
+Please Enter Your 5-Digit Rika-Mart ID, Enter -1 to quit: 86749
+Enter First Name: Robert
+Enter Last Name: Fripp
+Please Enter Your 5-Digit Rika-Mart ID, Enter -1 to quit: -1
+0:[ empty ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[ empty ]
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ empty ]
+11:[ empty ]
+12:[ empty ]
+13:[ empty ]
+14:[ empty ]
+15:[ empty ]
+16:[ empty ]
+17:[ empty ]
+18:[ empty ]
+19:[Paul McCartney] 
+20:[ empty ]
+21:[ empty ]
+22:[ empty ]
+23:[ empty ]
+24:[David Bowie] [Mick Jagger] 
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[Prince Revolution] 
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[Robert Fripp] 
+33:[Iggy Pop] 
+34:[ empty ]
+35:[ empty ]
+36:[ empty ]
+To Find Customer, Enter 5-Digit Rika-Mart ID, Enter -1 to quit
+69699
+Found Customer: Mick Jagger
+To Find Customer, Enter 5-Digit Rika-Mart ID, Enter -1 to quit
+79375
+Found Customer: Iggy Pop
+To Find Customer, Enter 5-Digit Rika-Mart ID, Enter -1 to quit
+99999
+Error: Element not Found
+To Find Customer, Enter 5-Digit Rika-Mart ID, Enter -1 to quit
+-1
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Mon 10 Dec 2018 01:33:10 PM PST
