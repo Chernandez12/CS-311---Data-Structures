@@ -1,0 +1,82 @@
+Script started on Sat 24 Nov 2018 10:09:40 PM PST
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ g++ llist.cpp slist.cpp elem.cpp htable.cpp hw8client.cpp
+]0;herna728@empress:~[herna728@empress ~]$ .a/.out
+bash: .a/.out: No such file or directory
+]0;herna728@empress:~[herna728@empress ~]$ /.a.out
+bash: /.a.out: No such file or directory
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+Enter Key: ANdr812
+Enter Name: Andre
+Enter Key: 312
+Enter Name: Johnathhoonathan
+Enter Key: 153
+Enter Name: Joseph
+Enter Key: 825
+Enter Name: Cesaasar
+Enter Key: 873 
+Enter Name: LIsisa
+Enter Key: 653
+Enter Name: Spike
+Enter Key: 764
+Enter Name: Faye
+Enter Key: 916
+Enter Name: Vash
+Enter Key: 768
+Enter Name: Ziggy
+Enter Key: 255
+Enter Name: Ziggyagain
+0:[ empty ]
+1:[ empty ]
+2:[ empty ]
+3:[ empty ]
+4:[ empty ]
+5:[153+Joseph] 
+6:[ empty ]
+7:[ empty ]
+8:[ empty ]
+9:[ empty ]
+10:[ empty ]
+11:[825+Ceasar] 
+12:[ empty ]
+13:[ empty ]
+14:[ empty ]
+15:[ empty ]
+16:[312+Jonathan] 
+17:[ empty ]
+18:[ empty ]
+19:[ empty ]
+20:[ empty ]
+21:[ empty ]
+22:[873+Lisa] 
+23:[ empty ]
+24:[653+Spike] [764+Faye] 
+25:[ empty ]
+26:[ empty ]
+27:[ empty ]
+28:[916+Vash] [768+Ziggy] 
+29:[ empty ]
+30:[ empty ]
+31:[ empty ]
+32:[ empty ]
+33:[255+Ziggyagain] 
+34:[ empty ]
+35:[812+Andre] 
+36:[ empty ]
+Look for? 
+812
+Found: 812+Andre
+Look for? 
+768
+Found: 768+Ziggy
+Look for? 
+420
+Error: Element not Found
+Look for? 
+99
+Error: Element not Found
+Look for? 
+-1
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Sat 24 Nov 2018 10:14:51 PM PST
