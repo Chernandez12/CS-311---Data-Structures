@@ -1,0 +1,119 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1561\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 ArialMT;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\vieww12540\viewh16140\viewkind1
+\deftab720
+\pard\pardeftab720\ri0\sl276\slmult1\partightenfactor0
+
+\f0\b\fs22 \cf0 CS311 Yoshii - HW2 Part 1\'96 Algorithm Analysis (Based on Notes-3B and 4A)\
+\
+DUE:   Week 4 Friday\
+\
+TOTAL: 22 points      Your score is:\
+\
+Your NAME: Carlos Andre Hernandez\
+\
+Date Turned in: 9/21/18\
+\
+A) Review Questions [1 pt per question = 11pts] 			Your score is:\
+     Type your answers here.  Answer completely.\
+1.) What does W(n) mean in general? (W? n? W(n)?)\
+\pard\pardeftab720\ri0\sl276\slmult1\partightenfactor0
+
+\b0 \cf0 W(n) is the worst case scenario. N is the number of operations for input size. \
+\pard\pardeftab720\ri0\sl276\slmult1\partightenfactor0
+
+\b \cf0 2.) For sequential search:\
+A.	W(n) = 
+\b0 is the worst case we have to compare x with every entry with N comparisons
+\b 	\
+B. 	When does it happen? 
+\b0 When x is last\
+
+\b 3.) What does B(n) mean in general? (B?, n?, B(n)?) 
+\b0 B(n) is the best case scenario\
+\
+
+\b 4.) For sequential search:\
+5.) \
+	A.	B(n) =	
+\b0 1 is the best case 
+\b 	\
+B. 	When does it happen? 
+\b0 This is when x is the first element in list\
+
+\b 6.) Why is A(n) difficult to determine for the real world problems? \
+\pard\pardeftab720\ri0\sl276\slmult1\partightenfactor0
+
+\b0 \cf0 Because real world problems are difficult to apply to because they are often unsorted and sometimes there isn\'92t a better algorithm to find\
+\pard\pardeftab720\ri0\sl276\slmult1\partightenfactor0
+
+\b \cf0 7.) Why don\'92t we care about constants and lesser terms in a time complexity expression? 
+\b0 Because we are mostly interested in the growth rate as N increases\
+
+\b 8.) Prove that 3n^2 + 4n = O(n^2) as I did in the notes. (must give C and the starting point for n) \
+\pard\pardeftab720\ri0\sl276\slmult1\partightenfactor0
+
+\b0 \cf0 C*n^2 >= 2n^2 + 3n \
+(C-2)n^2 >= 3n\
+(C-2)n >= 3\
+If I pick 
+\b C = 5
+\b0 , then \
+      3n >= 3\
+the above relation is true for all 
+\b n >=1
+\b0   QED.\
+\pard\pardeftab720\ri0\sl276\slmult1\partightenfactor0
+
+\b \cf0 9.) Binary search corresponds to the ___shortest__binary search tree.\
+Sequential search corresponds to a / the _tallest height of the tree.\
+Hint: the shape/height\
+10.) Thus, the fastest ordered list search does W(n)=Theta(log2(n)) comparisons. 
+\b0 Finding it in the root\
+
+\b 11.) But, the fastest unordered list search does W(n)=Theta(n) comparisons. 
+\b0 Finding it right away\
+\
+
+\b B) Program: Binary Search [2+9=11 pts] 			Your score is:\
+Code:\
+Comments:\
+Test results:\
+Total 9 points:\
+Q\'92s 2 points:\
+Q. State of your program [2pts] \
+Does your program compile without errors? If not, describe. NO\
+List any bugs you are aware of, or state \'93No bugs\'94: No bugs\
+\
+No ADT; Just one source code file  - Run my solution program first!!\
+Using Notes-4A.doc, implement and test the recursive binary search function.\
+Must use binsearch.cpp\
+The pseudo code in the file does not take care of the cases where the element is not found. You must fix the code to take care of such cases and return -1.\
+Also, display \'93comparing against the element in slot <slot>\'94 each time you find the mid point.\
+\
+Your main() will fill an array of 10 slots with integers 1 3 5 7 9 11 13 15 17 19\
+It will then ask the user to enter a number to look for.\
+It will then call binarySearch and display the returned result.\
+e.g. \'93The number was found in position 5\'94 or \'93The number was not found\'94\
+\
+Required Testing and expected results: (must test in this order!) Test.txt\
+Find 1  in position 1  (It is not position 0!)\
+Find 19 in position 10 \
+Find 5 in position 3\
+Find 17 in position  9\
+Find 21 fails\
+Find 0 fails\
+Find 6 fails\
+Make sure the number of comparisons is what you expected.\
+\
+SUBMIT THESE 3 FILES: \
+This assignment sheet with your answers.\
+binsearch.cpp: The source code file for the program with good comments.\
+Test.txt: Script of the compilation and test results on Empress.\
+\
+\pard\pardeftab720\ri0\sl276\slmult1\partightenfactor0
+
+\b0 \cf0 \
+}

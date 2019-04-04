@@ -1,0 +1,44 @@
+Script started on Fri 21 Sep 2018 05:30:20 PM PDT
+]0;herna728@empress:~[?1034h[herna728@empress ~]$ g++ binsearch.cpp
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+What do you want to look for? 1
+comparing against an element in slot 4
+comparing against an element in slot 1
+Found it in position 1
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+What do you want to look for? 19
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+Found it in position 10
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+What do you want to look for? 5
+comparing against an element in slot 4
+comparing against an element in slot 1
+Found it in position 3
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out 17
+What do you want to look for? 17
+comparing against an element in slot 4
+comparing against an element in slot 7
+Found it in position 9
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+What do you want to look for? 21
+comparing against an element in slot 4
+comparing against an element in slot 7
+comparing against an element in slot 8
+Element not found
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+What do you want to look for? 0
+comparing against an element in slot 4
+comparing against an element in slot 1
+Element not found
+]0;herna728@empress:~[herna728@empress ~]$ ./a.out
+What do you want to look for? 6
+comparing against an element in slot 4
+comparing against an element in slot 1
+comparing against an element in slot 2
+Element not found
+]0;herna728@empress:~[herna728@empress ~]$ exit
+exit
+
+Script done on Fri 21 Sep 2018 05:33:34 PM PDT
